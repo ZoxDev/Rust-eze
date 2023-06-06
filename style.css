@@ -11,10 +11,8 @@ html, body {
 .navbar{
     width: 100vw;
     /* Modif à faire navbar devient 5vh quand scroll sur 9vh */
-    height: 17vh;
-    box-shadow: 10px 10px 10px rgb(174, 143, 143);
-    background-image: url(images/back-image-nav.jpeg);
-    background-size: cover;
+    height: 9vh;
+    overflow-y: hidden;
 }
 
 .navbar-logo{
@@ -30,6 +28,7 @@ html, body {
 }
 
 .nav-items{
+    font-style:'Montserrat', sans-serif;
     color: black;
     text-decoration: none;
     margin-right: 10px;
@@ -41,4 +40,19 @@ html, body {
 .nav-items:active{
     font-size: 16px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+/* Presentation of the asso */
+.image-pres-asso{
+    width: 300px;
+    height: 325px;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+.pres-text{
+    
 }
