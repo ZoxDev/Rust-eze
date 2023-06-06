@@ -60,8 +60,27 @@ h1{
     text-align: center;
 }
 
-
+/* Image event */
 .image-event-asso{
     width: 300px;
     height: 200px;
+}
+
+/* Image history */
+.image-history-asso{
+    width: 300px;
+    height: 250px;
+}
+
+/* footer */
+.footer{
+    font-size: x-large;
+    font-style: italic;
+    
+    font-size: 12px;
+    box-shadow: 20px 10px 13px 7px #000000;
+}
+
+.info{
+    margin-left: 50px;
 }
