@@ -1,0 +1,16 @@
+.form{
+    position: fixed;
+    top: 5%;
+    margin-top: 9vh;
+    margin-left: 20px;
+}
+
+.form-select{
+    margin-bottom: 20px;
+}
+
+.footer{
+    position : fixed;
+    bottom : 0px;
+    width: 100%;
+}

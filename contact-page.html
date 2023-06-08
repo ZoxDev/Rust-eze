@@ -26,13 +26,46 @@
           <div class="nav-link">
             <a href="index.html" class="nav-items">Home</a>
             <a href="event-page.html" class="nav-items">Event</a>
-            <a href="#" class="nav-items">Contact</a>
+            <a href="contact-page.html" class="nav-items">Contact</a>
           </div>
         </div>
     </nav>
 
     <div class="form">
+        <!--Email-->
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div id="emailHelp" class="form-text">Cette e-mail est à titre indicatif pour vous envoyez une réponse sur celle-ci.</div>
+          </div>
 
+          <!--Names-->
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Nom</label>
+            <input type="text" aria-label="Last name" class="form-control">
+          </div>
+
+          <div class="mb-3">
+            <label for="firstname" class="form-label">Prénom</label>
+            <input type="text" aria-label="First name" class="form-control">
+          </div>
+
+          <!--Text area-->
+          <div class="mb-3">
+            <label for="text-area" class="form-label">Ecrivez-nous</label>
+            <textarea class="form-control" id="text-area" rows="10"></textarea>
+          </div>
+
+          <!--Select a subject-->
+          <select class="form-select" aria-label="Default select example">
+            <option selected>De quoi voulez-vous nous parler ?</option>
+            <option value="1">Adhérez</option>
+            <option value="2">Question générale</option>
+            <option value="3">Question sur un évenement</option>
+          </select>
+
+          <!--Submit button-->
+          <button type="submit" class="btn btn-primary">Envoyez</button>
     </div>
 
         <!--Footer-->
