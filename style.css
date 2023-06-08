@@ -87,3 +87,9 @@ h1{
         margin-left: 25vw;
      }
 }
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        font-size: 12px;
+    }
+}
