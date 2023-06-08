@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@300&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -6,6 +8,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Pathway Extreme', sans-serif;
 }
 
 .navbar{
@@ -26,28 +29,20 @@ html, body {
 
 .nav-link{
     margin-bottom: 200px;
-    
     margin-right: 35px;
 }
 
 .nav-items{
-    font-style:'Montserrat', sans-serif;
     color: black;
     text-decoration: none;
     margin-right: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
 }
 
-.nav-items:active{
+.nav-items:hover{
     font-size: 16px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-
-/* Presentation of the asso */
-.home-text{
-
 }
 
 .image-pres-asso{
@@ -84,4 +79,11 @@ h1{
 
 .info{
     margin-left: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .image-responsive{
+        margin-left: 25vw;
+     }
 }
